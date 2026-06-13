@@ -30,7 +30,7 @@ function Signup() {
             };
 
             const res = await axios.post(
-                "http://localhost:3002/signup",
+                "https://stockflow-trading-plateform-backend.onrender.com/signup",
                 payload
             );
 
